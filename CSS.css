@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Head {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 1rem;
+    position: fixed;
+    top: 0;
+}
+
+.Head h2 {
+    color: #e5e5ee;
+    display: inline-block;
+    z-index: 999;
+    background-color: black;
+}
+
+.Head a {
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 999;
+    background-color: black;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.main img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 80px;
+}
+
+.main h1 {
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 150px;
+    padding: 40px;
+}
+
+.ft-main {
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.ft-main p {
+    color: #e5e5ee;
+    margin: auto;
+    font-size: 20px;
+}
