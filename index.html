@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang=0"en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="CSS.css">
+    </head>
+
+    <body>
+        <h1>Worhshop #HTML - FORM</h1>
+        
+        <form action="#">
+            <label for="fname"></label>
+            <p>ชื่อ&nbsp;&emsp;&emsp;&emsp;&emsp;&ensp; <input type="text" id="fname" name="fname"> </p>
+
+            <label for="lanme"></label>
+            <p>สกุล&emsp;&emsp;&emsp;&emsp;&ensp;<input type="text" id="lname" name="lname"> </p> 
+
+            <p>วัน/เดือน/ปีเกิด <input type="date" id="datemin" name="datemin" min="dd-mm-yyyy"><br> </p>
+
+            <p>อายุ &emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;<input type="text" id="age" name="age"> <br> </p>
+
+            <p>เพศ&emsp;&emsp;&emsp;&emsp; 
+                <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">ชาย</label>
+                <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">หญิง</label><br>
+            </p>
+            
+            <p>รูป&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="file" id="myfile" name="myfile"><br></p>
+
+            <div class="address">
+                <p>ที่อยู่&emsp;&emsp;&emsp;&emsp;
+                    <textarea rows="5" cols="40"></textarea> 
+                </p>
+            </div>
+
+            <label for="color">สีที่ชอบ&emsp;&emsp;&ensp;&nbsp;</label>
+                <select id="color" name="color">
+                    <option value="สีแดง">สีแดง</option>
+                    <option value="สีฟ้่า">สีฟ้า</option>
+                    <option value="สีเหลือง">สีเหลือง</option>
+                    <option value="สีดำ">สีดำ</option>
+                </select>
+
+            <p>แนวเพลงที่ชอบ
+                <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">เพื่อชีวิต</label>
+                <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">ลูกทุ่ง</label>
+                <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">อื่นๆ</label><br>
+            </p>
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">ยินยอมให้เก็บข้อมูล</label><br><br>
+
+            <input type="reset">
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>
